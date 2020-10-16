@@ -1,0 +1,15 @@
+input_folder_path: "/home/japneet/input"
+
+# for firehol
+firehol_url: "https://github.com/firehol/blocklist-ipsets.git"
+
+# for suricata
+suricata_url: "https://rules.emergingthreats.net/blockrules/"
+
+# for intel-stack
+db_path: "/opt/intel-stack-client/frameworks/intel/master-public.dat"
+api:
+  - "28ad29f0-4509-4d1d-4e9f-544bddf8e0bd:Bot"
+  - "22fcdc17-5e9c-43ec-723a-0a3eb7ea4b0c:Malware"
+  - "87967e65-e24f-4862-5f94-d726d7adec82:Tor"
+  - "af47f9a7-2a8a-4145-52f9-adf465846d07:Blacklisted"
