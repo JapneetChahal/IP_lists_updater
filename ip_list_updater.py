@@ -65,6 +65,7 @@ def get_lists():
 def main():
     read_yml()
     update_folder(get_lists())
+    os.system("rm -r blocklist-ipsets && rm -r __pycache__")
 
 
 main()
